@@ -1,0 +1,40 @@
+Description of problem statement 2
+
+1) Write a function that takes Season number and episode number as input
+and gives all the information about that particular episode as output.
+
+=> An arrow function is used which has 2 parameters- season number & episode number.
+A for of loop is used which extracts the details of the episode along with season number.
+In the if condition, a check is performed if it matches the season number and episode number from the inputs provided
+with that of the details from the for of loop.
+
+If the details are matched, the loops break.
+If details are not found, a console error is printed.
+
+Finally the function is called with the two arguments.
+
+2) Write a function that can take any number of episode ids as input and
+returns all the information about those episodes.
+
+=> An arrow function is used .
+A rest operator is passed as a parameter.
+For in and for of loops are then used to extract the episode details from the Json array given.
+If the numbers passed into the prompt matches with the episode details extracted, then the episode details are 
+printed in the console.
+Template literals are used to print the various details of the episode that matches.
+If it doesnt match, then an error is printed in the console.
+
+Since the episode in the argument can be any number, split method is used to split the passed arguemnts by a (,).
+Finally the function is called with the argument in the form of rest operator.
+
+
+3) Write a function to search episode by its name.
+
+=> An arrow function is used .
+For of loops are then used to extract the episode details from the Json array given.
+If the episode name passed into the prompt matches with the episode name from the details extracted,
+ then the episode details are printed in the console.
+Lower case method is used to maintain consistency.
+If it doesnt match, then an error is printed in the console.
+Finally the function is called with the argument as the name of episode from the prompt.
+

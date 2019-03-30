@@ -1,0 +1,19 @@
+Description of Code used for Problem statement 1:
+
+1) Check login -
+An array is declared using let keyword.
+This array contains the details of the users.
+
+An arrow function is used to declare the funtion - it has 3 parameters.
+For of loop is used to check if the entered email and password matches with that of array.
+Break statements help us ensure the flow is broken down once the desired results are met.
+
+Then ternary operator is used to validate the login process.
+Finally the function is called based on the arguments passed.
+
+2)Bubble sort -
+A constant is used to declare the array which is to be sorted.
+Arrow function is used which has paramters passed based on the array decalred.
+Internal for loop is used which sorts the array based on the next iterative position.
+A while condition checks if the array is sorted and returns the sorted array accrodingly.
+Finally the function is called with array name as the arguement.
