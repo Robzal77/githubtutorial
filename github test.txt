@@ -1,7 +1,2 @@
 Test file created to include changes done from github to local repo. 
 Again made changes in local. 
-
-Adding more lines
-
-Continued working on master branch. 
-Few more changes in master branch. 
